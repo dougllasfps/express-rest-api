@@ -1,0 +1,23 @@
+{
+  "name": "security-control-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "log4js": "^4.0.2",
+    "youch": "^2.0.10"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "mocha --watch --reporter  spec"
+  }
+}
