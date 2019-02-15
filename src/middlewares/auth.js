@@ -1,5 +1,5 @@
 const jwt = require('../service/jwtService')
-
+/*
 module.exports = ( req, res, next ) => {
     const authorization = req.headers.authorization
     
@@ -29,3 +29,5 @@ module.exports = ( req, res, next ) => {
     }
 
 }
+
+*/

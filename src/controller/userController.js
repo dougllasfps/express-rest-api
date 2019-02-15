@@ -1,10 +1,9 @@
-const express = require('express')
 const httpUtil = require('../util/httpUtil')
 
-const router = express.Router();
+const post = ( req, res ) => {
+    res.status(201).send(req.body)
+}
 
-
-
-module.exports = app => {
-    
+module.exports = {
+    post
 }

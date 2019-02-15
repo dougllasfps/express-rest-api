@@ -21,6 +21,8 @@ describe(' Deve testar o registro de usuarios ', () => {
             .send(user)
             .end( (err, resp) => {
                 resp.should.have.status(201)
+                resp.body.should.have.property('nome')
+                resp.body.should.have.property('email')
                 done();
             })
 
