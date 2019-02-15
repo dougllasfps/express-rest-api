@@ -6,9 +6,12 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.4.0",
+    "knex": "^0.16.3",
     "log4js": "^4.0.2",
+    "pg": "^7.8.0",
     "youch": "^2.0.10"
   },
   "devDependencies": {
