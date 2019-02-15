@@ -10,5 +10,6 @@ const post = ( req, res ) => {
 }
 
 module.exports = {
+    validation,
     post
 }
